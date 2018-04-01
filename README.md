@@ -16,13 +16,14 @@ More information on the Grove GSR sensor: <http://wiki.seeedstudio.com/Grove-GSR
 
 The arduino was connected to a Raspberry Pi 3 using a serial cable.
 
-### Software
-The following python modules were used:
+### Python Modules
 	* serial
 	* pymysql
 
 ## Getting Started
+
 Update the config.json with your sql server credentials. Setup a database with a table called 'reading', with 'ohms' and 'date' columns. 
+
 ## Running
 
 Attach the GSR sensors to the subject's fingers, and run the following command:
